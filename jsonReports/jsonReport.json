@@ -1,0 +1,145 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\anjus\\Desktop\\Lambda-Test-Playwright101_Anju\\Lambda-Test-Playwright101\\playwright.config.ts",
+    "rootDir": "C:/Users/anjus/Desktop/Lambda-Test-Playwright101_Anju/Lambda-Test-Playwright101",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/anjus/Desktop/Lambda-Test-Playwright101_Anju/Lambda-Test-Playwright101/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chrome:latest:MacOS Catalina@lambdatest",
+        "name": "chrome:latest:MacOS Catalina@lambdatest",
+        "testDir": "C:/Users/anjus/Desktop/Lambda-Test-Playwright101_Anju/Lambda-Test-Playwright101",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/lambdaTestScenarios.test.ts"
+        ],
+        "timeout": 300000
+      },
+      {
+        "outputDir": "C:/Users/anjus/Desktop/Lambda-Test-Playwright101_Anju/Lambda-Test-Playwright101/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chrome:latest:Windows 10@lambdatest",
+        "name": "chrome:latest:Windows 10@lambdatest",
+        "testDir": "C:/Users/anjus/Desktop/Lambda-Test-Playwright101_Anju/Lambda-Test-Playwright101",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/lambdaTestScenarios.test.ts"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.50.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\lambdaTestScenarios.test.ts",
+      "file": "tests/lambdaTestScenarios.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Lambda Test Assesment",
+          "file": "tests/lambdaTestScenarios.test.ts",
+          "line": 9,
+          "column": 7,
+          "specs": [
+            {
+              "title": "Test Scenario_02",
+              "ok": true,
+              "tags": [
+                "lambdatest"
+              ],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chrome:latest:MacOS Catalina@lambdatest",
+                  "projectName": "chrome:latest:MacOS Catalina@lambdatest",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 21759,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-08-20T10:11:11.645Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\anjus\\Desktop\\Lambda-Test-Playwright101_Anju\\Lambda-Test-Playwright101\\test-results\\tests-lambdaTestScenarios--d282d--Assesment-Test-Scenario-02-chrome-latest-MacOS-Catalina-lambdatest\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ba17a3057e16a86202f4-ca4443910270ba7edda1",
+              "file": "tests/lambdaTestScenarios.test.ts",
+              "line": 20,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-08-20T10:11:10.534Z",
+    "duration": 22900.59500000067,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
