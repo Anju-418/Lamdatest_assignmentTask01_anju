@@ -1,4 +1,8 @@
 Playwright Typescript 
+
+## GitPod URL - https://gitpod.io/new/#https://github.com/Anju-418/Lamdatest_assignmentTask01_anju/
+https://anju418-lamdatestassign-i0tsz66y99b.ws-us121.gitpod.io/
+
 ## What is Playwright?
 - The playwright is a Node.js library to automate Chromium, Firefox, and WebKit with a single API. Playwright is built to enable cross-browser web testing.
 
@@ -14,5 +18,4 @@ Playwright Typescript
 - VS Code
 - Playwright Vs Code Extension
 
-## GitPod URL - https://gitpod.io/new/#https://github.com/Anju-418/Lamdatest_assignmentTask01_anju/
-https://anju418-lamdatestassign-i0tsz66y99b.ws-us121.gitpod.io/
+
