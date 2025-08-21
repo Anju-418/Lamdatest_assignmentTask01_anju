@@ -14,4 +14,5 @@ Playwright Typescript
 - VS Code
 - Playwright Vs Code Extension
 
-## GitPod URL - https://anju418-lamdatestassign-i0tsz66y99b.ws-us121.gitpod.io/
+## GitPod URL - https://gitpod.io/new/#https://github.com/Anju-418/Lamdatest_assignmentTask01_anju/
+https://anju418-lamdatestassign-i0tsz66y99b.ws-us121.gitpod.io/
